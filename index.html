@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Моя страница</a>
+      <nav class="navbar">
+        <a href="#home">Главная</a>
+        <a href="#about">Обо мне</a>
+        <a href="#skill">Навыки</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#contact">Связь</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>&lt;Hello, World!&gt;</h3>
+        <h2>Меня зовут</h2>
+        <h1>Игорь Данилов</h1>
+        <h3>Я начинающий <span>JavaScript Разработчик</span></h3>
+        <blockquote>
+          <p>
+            "Когда вам покажется, что цель недостижима, не изменяйте цель —
+            изменяйте свой план действий." ©
+          </p>
+        </blockquote>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-vk"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-youtube"></i></a>
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img class="home-box-img" src="css/img/photo1.png" alt="photo" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="css/img/photo2.jpg" alt="photo" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">Обо мне:</h2>
+        <h3>
+          Обучаюсь в
+          <a target="_blank" href="https://elbrusboot.camp/"
+            ><span>Elbrus Bootcamp</span></a
+          >
+        </h3>
+        <p>Направлением IT увлекся в 2023 году</p>
+        <p>Мне 21 год, живу в городе Рыбинск</p>
+        <p>Люблю активные виды спорта и командные игры</p>
+      </div>
+    </section>
+
+    <section class="skill" id="skill">
+      <h2 class="heading">Навыки</h2>
+      <div class="skill-container">
+        <div class="skill-box">
+          <i class="bx bxl-html5"></i>
+          <h3>HTML</h3>
+          <p>Уровень владения:</p>
+          <p>4 из 10</p>
+        </div>
+        <div class="skill-box">
+          <i class="bx bxl-css3"></i>
+          <h3>CSS</h3>
+          <p>Уровень владения:</p>
+          <p>3 из 10</p>
+        </div>
+        <div class="skill-box">
+          <i class="bx bxl-javascript"></i>
+          <h3>JavaScript</h3>
+          <p>Уровень владения:</p>
+          <p>3 из 10</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Портфолио</h2>
+      <p>Скоро тут будут появлятся мои проекты</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Связь</h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Имя" />
+          <input type="email" placeholder="Почта" />
+          <input type="tel" placeholder="Номер телефона" />
+        </div>
+        <textarea cols="30" rows="10" placeholder="Твое сообщение"></textarea>
+        <input type="submit" value="Отправить Сообщение" class="btn" />
+      </form>
+    </section>
+  </body>
+</html>
